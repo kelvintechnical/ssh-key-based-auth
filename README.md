@@ -1,11 +1,11 @@
 # Lab: Configure SSH and Key-Based Authentication
 
-**Series:** linux-ops-mastery — RHCSA Networking
-**Subjects covered:** OpenSSH server role (`sshd`), client config basics, **`ssh-keygen`** RSA key pair generation, **`ssh-copy-id`** public-key deployment, `~/.ssh` permissions (`0700`, `0600`), `authorized_keys` format, testing **`ssh -i`**, passwordless login verification, cleaning lab keys
-**Career arcs covered:** RHCSA (SSH hardening and keys appear in objectives), RHCE (Ansible `authorized_key` module), SRE (break-glass access patterns), DevOps (CI deploy keys), AI/MLOps (notebook → cluster `ssh` without passwords in scripts)
-**Prerequisite:** Two user accounts on one VM **or** two VMs on the same lab network; root/sudo access; Lab 36 networking basics so `ping` between hosts works
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 verify sshd · 2 generate RSA key · 3 deploy pubkey · 4 test and tighten permissions · 5 edge cases · 6 capstone + cleanup
+- **Series:** linux-ops-mastery — RHCSA Networking
+- **Subjects covered:** OpenSSH server role (`sshd`), client config basics, **`ssh-keygen`** RSA key pair generation, **`ssh-copy-id`** public-key deployment, `~/.ssh` permissions (`0700`, `0600`), `authorized_keys` format, testing **`ssh -i`**, passwordless login verification, cleaning lab keys
+- **Career arcs covered:** RHCSA (SSH hardening and keys appear in objectives), RHCE (Ansible `authorized_key` module), SRE (break-glass access patterns), DevOps (CI deploy keys), AI/MLOps (notebook → cluster `ssh` without passwords in scripts)
+- **Prerequisite:** Two user accounts on one VM **or** two VMs on the same lab network; root/sudo access; Lab 36 networking basics so `ping` between hosts works
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 verify sshd · 2 generate RSA key · 3 deploy pubkey · 4 test and tighten permissions · 5 edge cases · 6 capstone + cleanup
 
 ---
 
